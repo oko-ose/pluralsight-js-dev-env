@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 80%;
+   height: 100%;
+   border-radius: 20px; 
+   font-weight: lighter;
+   font-family: 'Montserrat';
+   margin: auto;
+   display: block;
+
+}
+html{
+    display: block;
+}
+div:nth-last-child(odd) {
+    background-color:#5A6882 ;
+    padding: 20px;
+}
+div:nth-last-child(even) {
+    background-color: #ebe1ea;
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
